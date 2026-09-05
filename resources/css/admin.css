@@ -1,0 +1,109 @@
+.admin {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.admin__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.admin__heading h2 {
+    font-size: 28px;
+}
+
+.admin__menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.admin__menu-item {
+    display: block;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.admin__menu-item:hover {
+    opacity: 0.8;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f5f5f5;
+}
+
+.admin__back {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.admin__back a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.contact-table th {
+    background-color: #f5f5f5;
+    white-space: nowrap;
+}
+
+.contact-table th:first-child,
+.contact-table td:first-child {
+    width: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.contact-table th:last-child,
+.contact-table td:last-child {
+    width: 70px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail-table th,
+.detail-table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.detail-table th {
+    width: 200px;
+    background-color: #f5f5f5;
+}
